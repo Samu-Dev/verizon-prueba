@@ -11,14 +11,43 @@ a:hover{
     color: #EE0000;
 }
 
+header{
+    background-color: #000000;
+}
+
+.texto-red{
+    color:#EE0000 !important;
+    font-size: 4vh;
+}
+
+.btn-menu{
+    background-color: #000000;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
+.input-search{
+    background-color: #000000;
+}
+
 .header-leyenda {
     background-color: #333;
     color: #ffffff;
     text-align: center;
-    font-size: 9px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.slider-borde{
+    border-radius: 30px;;
+}
+
+.logo-banner{
+    width: 30%;
 }
 
 .banner{
@@ -28,17 +57,55 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
 }
-.boton-banner{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
 
+.bg-negro{
+    background-color: #000000;
 }
+
 .card {
-    background-color: white;
     border-radius: 20px;
     color: black;
     animation: fade-in 3s;
+}
+
+.card-red{
+    border-top: 15px solid #EE0000;
+}
+
+.card-gray{
+    border-top: 15px solid #333;
+}
+
+.card-gold{
+    border-top: 15px solid #ffd900;
+}
+
+.suscripciones{
+    margin: 7%;
+    border: 5px solid #ffffff;
+    border-radius: 30px;
+}
+
+.form-control{
+    color: #fff;
+    border-radius: 30px;
+    background-color: #000;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #333;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ee000040;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: #ffffffb4 !important;
+}
+
+.collapse-white{
+    background-color: #ffffff;
 }
 
 @keyframes fade-in {
