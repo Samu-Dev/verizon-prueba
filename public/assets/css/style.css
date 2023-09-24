@@ -1,0 +1,51 @@
+body{
+    background-color: #000000;
+}
+
+a{
+    text-decoration: underline;
+    color: #ffffff
+}
+
+a:hover{
+    color: #EE0000;
+}
+
+.header-leyenda {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner{
+    background-color: #EE0000;
+    border-radius: 30px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.boton-banner{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
