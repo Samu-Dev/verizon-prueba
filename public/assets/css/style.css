@@ -29,11 +29,18 @@ header{
     right: 0;
 }
 
-.texto-red{
+.texto-red-movil{
     text-overflow: ellipsis;
     overflow: hidden;
     color:#EE0000 !important;
-    font-size: 7ch;
+    font-size: 4vh;
+}
+
+.texto-red-desktop{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color:#EE0000 !important;
+    font-size: 6vh;
 }
 
 .btn-red{
@@ -124,7 +131,7 @@ header{
 }
 
 .modal-blanco::placeholder {
-    color: 333 !important;
+    color: #000 !important;
 }
 
 
