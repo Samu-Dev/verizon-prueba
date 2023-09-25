@@ -2,8 +2,12 @@ body{
     background-color: #000000;
 }
 
+p{
+    color: #fff;
+}
+
 a{
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffffff
 }
 
@@ -15,13 +19,29 @@ header{
     background-color: #000000;
 }
 
-.texto-red{
-    color:#EE0000 !important;
-    font-size: 4vh;
+.menu{
+    position: relative;
 }
 
-.btn-menu{
-    background-color: #000000;
+.navbar-toggler{
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.texto-red{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color:#EE0000 !important;
+    font-size: 7ch;
+}
+
+.btn-red{
+    background-color: #EE0000;
+}
+
+.btn-red:hover{
+    background-color: #333;
 }
 
 .btn{
@@ -36,8 +56,7 @@ header{
     background-color: #333;
     color: #ffffff;
     text-align: center;
-    font-size: 14px;
-    display: flex;
+    font-size: 12px;
     justify-content: center;
     width: 100%;
 }
@@ -81,8 +100,8 @@ header{
 }
 
 .suscripciones{
-    margin: 7%;
-    border: 5px solid #ffffff;
+    margin: 6%;
+    border: 7px solid #ffffff;
     border-radius: 30px;
 }
 
@@ -99,13 +118,26 @@ header{
     box-shadow: 0 0 0 0.2rem #ee000040;
 }
 
-input::placeholder {
+.input-dark::placeholder {
     font-size: 18px;
     color: #ffffffb4 !important;
 }
 
+.modal-blanco::placeholder {
+    color: 333 !important;
+}
+
+
 .collapse-white{
     background-color: #ffffff;
+}
+
+.fw-bold{
+    color: #fff;
+}
+
+.list-group-numbered>.list-group-item::before {
+    color: white;
 }
 
 @keyframes fade-in {
